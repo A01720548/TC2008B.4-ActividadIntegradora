@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8732626864383497598}
   - component: {fileID: 8727525916531155544}
   - component: {fileID: 1672533080177299086}
+  - component: {fileID: 1353737136875190991}
   m_Layer: 0
   m_Name: Roomba
   m_TagString: Untagged
@@ -1304,6 +1305,19 @@ MonoBehaviour:
   speed: 5
   rand: 1
   go: 1
+--- !u!65 &1353737136875190991
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672533080177299087}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9999999, y: 2, z: 1.9999999}
+  m_Center: {x: 0.99999994, y: 1, z: 0.99999994}
 --- !u!1 &5467871488950429225
 GameObject:
   m_ObjectHideFlags: 0
