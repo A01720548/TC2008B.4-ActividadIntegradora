@@ -39,7 +39,7 @@ public class RobotMovement : MonoBehaviour
             {
                 num ++;
             }
-        }   else
+        } else
             {
                 num = Random.Range(0,waypoints.Length);
             }

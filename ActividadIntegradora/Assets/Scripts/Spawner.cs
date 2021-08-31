@@ -20,7 +20,7 @@ public class Spawner : MonoBehaviour
         for (int i = 0; i < quantityRobots; i++) {
             float posX = Random.Range(-rangeX, rangeX);
             float posZ = Random.Range(-rangeZ, rangeZ);
-            Instantiate(robot, new Vector3(posX,0.019f,posZ), Quaternion.identity); // Orient object in +X, +Z, +Y
+            Instantiate(robot, new Vector3(posX,0f,posZ), Quaternion.identity); // Orient object in +X, +Z, +Y
         }
     }
 
