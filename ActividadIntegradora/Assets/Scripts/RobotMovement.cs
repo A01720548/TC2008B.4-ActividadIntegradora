@@ -15,7 +15,8 @@ public class RobotMovement : MonoBehaviour
     
  // Use this for initialization
     void Start () {
-        speed = Random.Range(1f,6f);
+        speed = Random.Range(3f,7f);
+        num = Random.Range(0, waypoints.Length);
 
     }
 
