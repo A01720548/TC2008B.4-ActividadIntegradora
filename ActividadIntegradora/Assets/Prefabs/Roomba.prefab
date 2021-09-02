@@ -1310,7 +1310,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 454
+  m_VersionIndex: 457
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1432,8 +1432,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.2941668, y: 2, z: 2.122698}
-  m_Center: {x: 1.0593305, y: 1, z: -0.14953901}
+  m_Size: {x: 2.2941668, y: 0.61250615, z: 1.3612683}
+  m_Center: {x: 1.0593305, y: 0.30625308, z: 0.23117602}
 --- !u!114 &1395019751162863745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1446,8 +1446,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c059bde2c922997429474553988ddafe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slot1: {fileID: 3388017021246173390, guid: c1cde8f78efadc049922d7887e37361d, type: 3}
-  slot2: {fileID: 3388017021246173390, guid: c1cde8f78efadc049922d7887e37361d, type: 3}
+  child1: {fileID: 0}
+  child2: {fileID: 0}
 --- !u!1001 &4147551030478514482
 PrefabInstance:
   m_ObjectHideFlags: 0
