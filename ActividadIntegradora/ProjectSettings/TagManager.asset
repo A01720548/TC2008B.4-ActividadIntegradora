@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Robot
   - Shelf
+  - Box
   layers:
   - Default
   - TransparentFX
